@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="193dp"
+        android:backgroundTint="#FF0000"
+        android:text="NATIONAL EMERGENCY NUMBER" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="301dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Call Ambulance" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="403dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Call Police" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="511dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Call Fire control" />
+
+
+</RelativeLayout>
